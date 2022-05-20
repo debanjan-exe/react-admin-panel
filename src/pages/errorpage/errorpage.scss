@@ -1,0 +1,24 @@
+.errorpage_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .go_back_to_home {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border: none;
+    cursor: pointer;
+    img {
+      width: 20px;
+    }
+    h2 {
+      padding-left: 8px;
+      color: #6512ff;
+    }
+  }
+}
